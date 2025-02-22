@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es2018",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "outDir": "dist",
+      "rootDir": ".",
+      "strict": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["server/**/*", "lib/**/*"],
+    "exclude": ["node_modules", "dist"]
+  }
